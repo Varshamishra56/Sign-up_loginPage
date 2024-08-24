@@ -41,7 +41,7 @@ const SignupLoginForm = ({ isSignup }) => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-slate-600 via-slate-700 to-slate-600 flex items-center justify-center min-h-screen">
+    <div className="bg-gradient-to-r from-blue-200 via-blue-300 to-blue-400 flex items-center justify-center min-h-screen">
       <div className="w-full max-w-md p-8 m-auto bg-white rounded-2xl shadow-xl">
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-6">
           {formType ? 'Create an Account' : 'Welcome Back'}
